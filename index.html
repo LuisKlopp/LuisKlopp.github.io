@@ -6,44 +6,38 @@
     <title>Main</title>
   </head>
   <body>
-    <h1>Tennis market</h1>
-    <div id="txt_welcome">
-      Welcome to Tennis market! <br />
-      Enjoy your shopping.
-      <br />
-      <br />
-      <a href="./orderlist"> order list </a>
+    <div class="page-container">
+      <h1 class="page-title">류현의 포트폴리오</h1>
+      <div class="page-description">
+        안녕하세요 류현의 포트폴리오 사이트에 와주셔서 감사합니다. <br />
+        오늘도 좋은하루 되시길 바랍니다.
+        <br />
+      </div>
     </div>
-    <div style="display: flex; justify-content: space-evenly">
+    <div class="card-container">
       <div class="card">
-        <img class="card_img" src="./img/redRacket.png" />
-        <p class="card_title">Red Racket</p>
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onClick="location.href='/order?productId=1'"
-        />
+        <img class="card-image" src="./public/image1.png" />
+        <p class="card-title">축구선수 영입 요청 페이지</p>
+        <p class="card-description">
+          응원하는 구단에 원하는 선수를 영입 요청할 수 있는 페이지
+        </p>
+        <input class="card-button" type="button" value="홈페이지 방문" />
       </div>
       <div class="card">
-        <img class="card_img" src="./img/blueRacket.png" />
-        <p class="card_title">Blue Racket</p>
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onClick="location.href='/order?productId=2'"
-        />
+        <img class="card-image" src="./public/image2.png" />
+        <p class="card-title">Jazz바 아티스트 모음 페이지</p>
+        <p class="card-description">
+          서울의 다양한 재즈바의 아티스트 일정 한눈에 보기
+        </p>
+        <input class="card-button" type="button" value="홈페이지 방문" />
       </div>
       <div class="card">
-        <img class="card_img" src="./img/blackRacket.png" />
-        <p class="card_title">Black Racket</p>
-        <input
-          class="card_button"
-          type="button"
-          value="order"
-          onClick="location.href='/order?productId=3'"
-        />
+        <img class="card-image" src="./public/image3.png" />
+        <p class="card-title">독서 모임 개최 페이지</p>
+        <p class="card-description">
+          독서 모임을 주최하고 다양한 의견을 들을 수 있는 페이지
+        </p>
+        <input class="card-button" type="button" value="홈페이지 방문" />
       </div>
     </div>
   </body>
